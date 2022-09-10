@@ -31,3 +31,13 @@ cat /etc/passwd
 ##### Set the time zone corresponding to your current location.
 
 ![timedatectl](/img/timedatectl.JPG)
+
+##### Output the names of the network interfaces using a console command.
+
+![ip-a](img/ip-a.JPG)
+
+Interface lo can be used by network client software to communicate with a server application located on the same computer. That is, if you specify the URL http://127.0.0.1/ or http://localhost/ in the web browser on the computer where the web server is running, it takes you to that computer's web site. This mechanism works without any active connection, so it is useful for testing services without compromising their security as with remote network access.
+
+##### Use the console command to get the ip address of the device you are working on from the DHCP server.
+
+![wget](img/wget.JPG)
