@@ -41,3 +41,17 @@ Interface lo can be used by network client software to communicate with a server
 ##### Use the console command to get the ip address of the device you are working on from the DHCP server.
 
 ![wget](img/wget.JPG)
+
+Dynamic Host Configuration Protocol (DHCP) is a network management protocol used to automate the process of configuring devices on IP networks, thus allowing them to use network services such as DNS, NTP, and any communication protocol based on UDP or TCP. 
+
+##### Define and display the external ip address of the gateway (ip) and the internal IP address of the gateway, aka default ip address (gw)
+
+external IP address
+A internal IP address is a range of non-internet facing IP addresses used in an internal network. Internal IP addresses are provided by network devices, such as routers, using network address translation.
+
+![an_external_ip](img/external.JPG)
+
+internal IP address
+A internal IP address is a range of non-internet facing IP addresses used in an internal network. Internal IP addresses are provided by network devices, such as routers, using network address translation.
+
+![an_internal_ip](img/internal.JPG)
