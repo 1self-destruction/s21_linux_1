@@ -1,10 +1,10 @@
-# UNIX/Linux operating systems (Basic).
+# UNIX/Linux operating systems (Basic)
 
 Linux system installation and updates. Administration basics.
 
 ## Part 1. Installation of the OS
 
-##### Install Ubuntu 20.04 Server LTS.
+##### Install Ubuntu 20.04 Server LTS
 
 cat /etc/issue
 
@@ -22,4 +22,12 @@ cat /etc/passwd
 
 ![cat_etc_passwd](/img/cat_etc_passwd.JPG)
 
+## Part 3. Setting up OS network
 
+##### Set the machine name as user-1
+
+![set-hostname](/img/set-hostname.jpg)
+
+##### Set the time zone corresponding to your current location.
+
+![timedatectl](/img/timedatectl.JPG)
