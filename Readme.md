@@ -36,11 +36,15 @@ cat /etc/passwd
 
 ![ip-a](img/ip-a.JPG)
 
+##### In the report give an explanation for the presence of the lo interface.
+
 Interface lo can be used by network client software to communicate with a server application located on the same computer. That is, if you specify the URL http://127.0.0.1/ or http://localhost/ in the web browser on the computer where the web server is running, it takes you to that computer's web site. This mechanism works without any active connection, so it is useful for testing services without compromising their security as with remote network access.
 
 ##### Use the console command to get the ip address of the device you are working on from the DHCP server.
 
 ![wget](img/wget.JPG)
+
+Decode DHCP in the report.
 
 Dynamic Host Configuration Protocol (DHCP) is a network management protocol used to automate the process of configuring devices on IP networks, thus allowing them to use network services such as DNS, NTP, and any communication protocol based on UDP or TCP. 
 
@@ -55,3 +59,25 @@ internal IP address
 A internal IP address is a range of non-internet facing IP addresses used in an internal network. Internal IP addresses are provided by network devices, such as routers, using network address translation.
 
 ![an_internal_ip](img/internal.JPG)
+
+##### Set static (manually set, not received from DHCP server) ip, gw, dns settings (use public DNS servers, e.g. 1.1.1.1 or 8.8.8.8).
+
+sudo vim /etc/netplan/00-installer-config.yaml
+
+![first](/img/vim_first.JPG)
+make some changes
+![changed](/img/changed.JPG)
+after all need to write "sudo netplan apply" to console, then reboot.
+
+##### Reboot the virtual machine. Make sure that the static network settings (ip, gw, dns) correspond to those set in the previous point.
+Reboot the virtual machine. Make sure that the static network settings (ip, gw, dns) correspond to those set in the previous point. 
+
+ping ya.ru
+ping 8.8.8.8
+
+![ping_ya](/img/ping_ya.JPG)
+![ping_1](/img/ping_1.JPG)
+
+"ip r" to console, to check that our settings was saved.
+
+![ip_r](/img/recheck.JPG)
