@@ -91,3 +91,24 @@ upgrade in progress
 
 "sudo apt update" again, to check that all packages are up to date.
 ![sudo_upgrade](/img/sudo_apt_upgrade.JPG)
+
+## Part 5. Using the sudo command
+
+sudo allows a permitted user to execute a command as the superuser or another user, as specified by the security policy. The invoking user's real (not effective) user-ID is used to determine the user name with which to query the security policy.
+
+"sudo usermod -a -G sudo malindac" to add our user from part-2(malindac) to sudo group
+
+![sudo_usermod](/img/usermod.JPG)
+
+"su malindac" to login as malindac.
+
+"sudo hostnamectl set-hostname user-1"
+
+![host](/img/new_hostname.JPG)
+
+##### Part 6. Installing and configuring the time service
+
+"sudo timedatectl set-ntp on" to enable auto-synchronization
+
+![time](/img/timedatectl2.JPG)
+![time2](/img/timedatectl21.JPG)
