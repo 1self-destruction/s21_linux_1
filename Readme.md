@@ -292,11 +292,16 @@ Human-readable
 
 ## Part 13. Installing and using the ncdu utility
 
+##### Install the ncdu utility.
+
 sudo apt install ncdu
 
 ncdu
+
 ##### Output the size of the /home, /var, /var/log folders.
 ![ncdu](img/ncdu_home.JPG)
 ![ncdu1](img/ncdu_var.JPG)
 ![ncdu2](img/ncdu_var_log.JPG)
+
+## Part 14. Working with system logs
 
