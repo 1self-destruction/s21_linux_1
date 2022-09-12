@@ -159,6 +159,7 @@ result
 ##### Using each of the three selected editors, edit the file again (similar to the previous point) and then master the functions of searching through the contents of a file (a word) and replacing a word with any other one.
 
 VIM:
+
 ![vim3](img/vim3after.JPG)
 
 Before prossing enter:
@@ -172,6 +173,7 @@ foo - serching word
 bar - replacement word
 
 NANO:
+
 ![nano3](img/nano_search.JPG)
 
 after pressing enter
@@ -183,9 +185,11 @@ after pressing enter
 ctrl+\ to search text u need, then press enter, then enter what you want to paste, then press enter 1 more time, then press y to apply the changes.
 
 JOE:
+
 ![joe3](img/joefind.JPG)
 ![jo331](img/joereplace.JPG)
 ![joe32](img/joedone.JPG)
+
 CTRL+kf to start search, then R to replace, then enter and type new string.
 
 ## Part 8. Installing and basic setup of the SSHD service
