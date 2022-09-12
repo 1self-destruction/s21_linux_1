@@ -72,11 +72,8 @@ after all need to write "sudo netplan apply" to console, then reboot.
 ##### Reboot the virtual machine. Make sure that the static network settings (ip, gw, dns) correspond to those set in the previous point.
 Reboot the virtual machine. Make sure that the static network settings (ip, gw, dns) correspond to those set in the previous point. 
 
-ping ya.ru
-ping 8.8.8.8
-
-![ping_ya](/img/ping_ya.JPG)
-![ping_1](/img/ping_1.JPG)
+ping -c 5 ya.ru, to ping 5 times and see the result. Same with 1.1.1.1
+![ping_all](/img/ping_1.JPG)
 
 "ip r" to console, to check that our settings was saved.
 
