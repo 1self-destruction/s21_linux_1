@@ -135,7 +135,7 @@ CTRL+s to save, CTRL+x to exit.
 
 CTRL+k+x to exit with save.
 
-![cat](/img/cat_all)
+![cat](/img/cat_all.JPG)
 
 result
 
@@ -153,6 +153,8 @@ CTRL+x then n to exit w/o save.
 CTRL+c then y to exit w/o save.
 
 ![cat2](/img/cat_all_2.JPG)
+
+result
 
 
 
