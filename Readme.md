@@ -82,11 +82,11 @@ after all need to write "sudo netplan apply" to console, then reboot.
 
 ##### Update the system packages to the latest version
 
-sudo apt update to download updates.
+sudo apt update to download updates.\n
 sudo apt upgrade to install updates.
 
 ![progress](/img/installing_update.JPG)
-update in progress
+upgrade in progress
 
 sudo apt update again, to check that all packages are up to date.
 ![sudo_upgrade](/img/sudo_apt_upgrade.JPG)
