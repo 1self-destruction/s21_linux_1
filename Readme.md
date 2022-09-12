@@ -210,3 +210,74 @@ servise ssh restart
 
 netstat -tan
 ![netstat](img/netstat_tan.JPG)
+
+## Part9. Installing and using the top, htop utilities
+
+##### Install and run the top and htop utilities.
+
+top
+![top](img/top.JPG)
+
+"top - 16:26:52 up 2 min" - uptime
+"1 user" - number of authorised users
+"load average: 0.00, 0.00, 0.00" - total system load
+"Tasks: 102 total" - total number of process
+"%Cpu(s): 0.0 us, 0.0 sy, 0.0 nim100.o id" - cpu load
+"MiB mem: 1983.4 total, 1516.0 free" - memory load
+"2" - pid of the process with the highest memory usage
+"160" - pid of the process taking the most CPU time
+
+htop
+![htop](img/htop.JPG)
+
+PID
+![pid](img/htop_pid.JPG)
+
+PERCENT CPU
+![percent_cpu](img/htop_percent_cpu.JPG)
+
+PERCENT MEM
+![percent_mem](img/htop_percent_mem.JPG)
+
+TIME
+![time](img/htop_time.JPG)
+
+Syslog
+![syslog](img/syslog.JPG)
+
+## Part 10. Using the fdisk utility
+
+sudo fdisk -l
+
+swapon --show
+
+![fdisk](img/fdisk.JPG)
+
+## Part 11. Using the df utility
+
+df
+![df](img/df.JPG)
+1-K blocks = 1024 bytes.
+
+Size: 9979Mb
+Used: 4418Mb
+Available: 5032Mb
+Use: 47%
+
+df -TH
+![df-th](img/dfTH)
+
+Size: 9.8Gb
+Used: 4.4Gb
+Available: 5.0Gb
+Use: 47%
+
+## Part 12. Using the du utility
+
+##### Run the du command.
+
+![du](img/du.JPG)
+
+##### Output the size of the /home, /var, /var/log folders (in bytes, in human readable format).
+
+![du-shb](img/du_shb.JPG)
