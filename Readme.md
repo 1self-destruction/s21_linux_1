@@ -173,7 +173,9 @@ bar - replacement word
 
 NANO:
 ![nano3](img/nano_search.JPG)
+
 after pressing enter
+
 ![nano32](img/nano_replace.JPG)
 ![nano33](img/nano_confirm.JPG)
 ![nano34](img/nano_res.JPG)
@@ -305,3 +307,37 @@ ncdu
 
 ## Part 14. Working with system logs
 
+vim /var/log/desg
+
+![desg](img/desg.JPG)
+
+vim /var/log/syslog
+
+![syslog](img/syslog1337.JPG)
+
+vim /var/log/auth.log
+
+![auth](img/auth_log.JPG)
+
+Sep 12 17:14:04, miamiultras, systemd-logind.
+
+![login](img/last_login.JPG)
+
+sudo systemctl restart ssh.service
+
+cat /var/log/auth.log | grep systemd-logind - last succesful login time
+
+![restart](img/restart.JPG)
+
+## Part 15. Using the CRON job scheduler
+
+##### Using the job scheduler, run the uptime command in every 2 minutes.
+
+crontab -e
+![crontabe](img/crontab.JPG)
+
+vim /var/log/syslog
+![crontabe2](img/varlog.JPG)
+
+##### Remove all tasks from the job scheduler.
+![crontab3](img/removed.JPG)
