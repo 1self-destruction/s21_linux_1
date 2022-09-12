@@ -156,5 +156,31 @@ CTRL+c then y to exit w/o save.
 
 result
 
+##### Using each of the three selected editors, edit the file again (similar to the previous point) and then master the functions of searching through the contents of a file (a word) and replacing a word with any other one.
+
+VIM:
+![vim3](img/vim3after.JPG)
+
+Before prossing enter:
+
+![vim32](img/vim3before.JPG)
+
+:s/foo/bar
+
+foo - serching word
+bar - replacement word
+
+NANO:
+![nano3](img/nano_search.JPG)
+after pressing enter
+![nano32](img/nano_replace.JPG)
+![nano33](img/nano_confirm.JPG)
+![nano34](img/nano_res.JPG)
+
+ctrl+\ to search text u need, then press enter, then enter what you want to paste, then press enter 1 more time, then press y to apply the changes.
+
+JOE:
+![joe3](img/joe3.JPG)
 
 
+!
