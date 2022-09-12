@@ -70,11 +70,23 @@ make some changes
 after all need to write "sudo netplan apply" to console, then reboot.
 
 ##### Reboot the virtual machine. Make sure that the static network settings (ip, gw, dns) correspond to those set in the previous point.
-Reboot the virtual machine. Make sure that the static network settings (ip, gw, dns) correspond to those set in the previous point. 
 
-ping -c 5 ya.ru, to ping 5 times and see the result. Same with 1.1.1.1
+"ping -c 5 ya.ru" to ping 5 times and see the result. Same with 1.1.1.1
 ![ping_all](/img/ping_1.JPG)
 
 "ip r" to console, to check that our settings was saved.
 
 ![ip_r](/img/recheck.JPG)
+
+## Part4. OS Update
+
+##### Update the system packages to the latest version
+
+sudo apt update to download updates.
+sudo apt upgrade to install updates.
+
+![progress](/img/installing_update.JPG)
+update in progress
+
+sudo apt update again, to check that all packages are up to date.
+![sudo_upgrade](/img/sudo_apt_upgrade)
