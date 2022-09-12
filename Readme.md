@@ -280,4 +280,23 @@ Use: 47%
 
 ##### Output the size of the /home, /var, /var/log folders (in bytes, in human readable format).
 
+bytes
 ![du-shb](img/du_shb.JPG)
+
+Human-readable
+![du-sh](img/du_sh.JPG)
+
+##### Output the size of all contents in /var/log (not the total, but each nested element using *)
+
+![du_var](img/du_var.JPG)
+
+## Part 13. Installing and using the ncdu utility
+
+sudo apt install ncdu
+
+ncdu
+##### Output the size of the /home, /var, /var/log folders.
+![ncdu](img/ncdu_home.JPG)
+![ncdu1](img/ncdu_var.JPG)
+![ncdu2](img/ncdu_var_log.JPG)
+
