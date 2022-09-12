@@ -90,10 +90,12 @@ after all need to write "sudo netplan apply" to console, then reboot.
 
 "sudo apt upgrade" to install updates.
 
+
 ![progress](/img/installing_update.JPG)
 upgrade in progress
 
 "sudo apt update" again, to check that all packages are up to date.
+
 ![sudo_upgrade](/img/sudo_apt_upgrade.JPG)
 
 ## Part 5. Using the sudo command
@@ -115,6 +117,7 @@ sudo allows a permitted user to execute a command as the superuser or another us
 "sudo timedatectl set-ntp on" to enable auto-synchronization
 
 ![time](/img/timedatectl2.JPG)
+
 ![time2](/img/timedatectl21.JPG)
 
 ## Part 7. Installing and using text editors
@@ -146,6 +149,7 @@ result
 ##### Using each of the three selected editors, open the file for editing, edit the file by replacing the nickname with the "21 School 21" string, close the file without saving the changes.
 
 ![vim2](/img/vim2.JPG)
+
 :q! to exit without save
 
 ![nano2](/img/nano2.JPG)
@@ -275,7 +279,7 @@ Available: 5032Mb
 Use: 47%
 
 df -TH
-![df-th](img/dfTH)
+![df-th](img/dfTH.JPG)
 
 Size: 9.8Gb
 Used: 4.4Gb
