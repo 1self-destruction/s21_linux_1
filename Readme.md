@@ -106,9 +106,53 @@ sudo allows a permitted user to execute a command as the superuser or another us
 
 ![host](/img/new_hostname.JPG)
 
-##### Part 6. Installing and configuring the time service
+## Part 6. Installing and configuring the time service
 
 "sudo timedatectl set-ntp on" to enable auto-synchronization
 
 ![time](/img/timedatectl2.JPG)
 ![time2](/img/timedatectl21.JPG)
+
+## Part 7. Installing and using text editors
+
+##### Install VIM text editor (+ any two others if you like NANO, MCEDIT, JOE etc.)
+
+![vim](img/vim.JPG)
+![nano](/img/nano.JPG)
+![joe](/img/joe.JPG)
+
+##### Using each of the three selected editors, create a test_X.txt file, where X is the name of the editor in which the file is created. Write your nickname in it, close the file and save the changes.
+
+![vim1](/img/vim1.JPG)
+
+:wq to exit with save.
+
+![nano1](/img/nano1.JPG)
+
+CTRL+s to save, CTRL+x to exit.
+
+![joe1](/img/joe1.JPG)
+
+CTRL+k+x to exit with save.
+
+![cat](/img/cat_all)
+
+result
+
+##### Using each of the three selected editors, open the file for editing, edit the file by replacing the nickname with the "21 School 21" string, close the file without saving the changes.
+
+![vim2](/img/vim2.JPG)
+:q! to exit without save
+
+![nano2](/img/nano2.JPG)
+
+CTRL+x then n to exit w/o save.
+
+![joe2](/img/joe2.JPG)
+
+CTRL+c then y to exit w/o save.
+
+![cat2](/img/cat_all_2)
+
+
+
