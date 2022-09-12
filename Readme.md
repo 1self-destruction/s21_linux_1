@@ -168,6 +168,7 @@ Before prossing enter:
 :s/foo/bar
 
 foo - serching word
+
 bar - replacement word
 
 NANO:
