@@ -181,7 +181,7 @@ after pressing enter
 ctrl+\ to search text u need, then press enter, then enter what you want to paste, then press enter 1 more time, then press y to apply the changes.
 
 JOE:
-![joe3](img/joe3.JPG)
-
-
-!
+![joe3](img/joefind.JPG)
+![jo331](img/joereplace.JPG)
+![joe32](img/joedone.JPG)
+CTRL+kf to start search, then R to replace, then enter and type new string.
