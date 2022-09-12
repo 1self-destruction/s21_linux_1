@@ -89,4 +89,4 @@ sudo apt upgrade to install updates.
 update in progress
 
 sudo apt update again, to check that all packages are up to date.
-![sudo_upgrade](/img/sudo_apt_upgrade)
+![sudo_upgrade](/img/sudo_apt_upgrade.JPG)
