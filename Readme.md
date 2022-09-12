@@ -185,3 +185,28 @@ JOE:
 ![jo331](img/joereplace.JPG)
 ![joe32](img/joedone.JPG)
 CTRL+kf to start search, then R to replace, then enter and type new string.
+
+## Part 8. Installing and basic setup of the SSHD service
+
+##### Install the SSHd service.
+
+sudo apt install openssh-server
+
+sudo systemctl enable ssh - to enable ssh on boot
+
+##### Add an auto-start of the service whenever the system boots.
+
+systemctl list-unit-files --type=service --state=enabled
+
+!(systemctl)[img/systemctl1.JPG]
+
+##### Reset the SSHd service to port 2022.
+
+sudo vim /etc/ssh/sshd_config
+
+!(sshd_config)[img/sshd-config.JPG]
+
+servise ssh restart
+
+netstat -tan
+!(netstat)[img/netstat_tan.JPG]
