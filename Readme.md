@@ -198,15 +198,15 @@ sudo systemctl enable ssh - to enable ssh on boot
 
 systemctl list-unit-files --type=service --state=enabled
 
-!(systemctl)[img/systemctl1.JPG]
+![systemctl](img/systemctl1.JPG)
 
 ##### Reset the SSHd service to port 2022.
 
 sudo vim /etc/ssh/sshd_config
 
-!(sshd_config)[img/sshd-config.JPG]
+![sshd_config](img/sshd-config.JPG)
 
 servise ssh restart
 
 netstat -tan
-!(netstat)[img/netstat_tan.JPG]
+![netstat](img/netstat_tan.JPG)
